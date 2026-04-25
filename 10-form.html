@@ -7,12 +7,13 @@
     <script src="10-type-narrowing.js" defer></script>
 </head>
 <body>
-    <form>
+    <form id="user-form">
         <p>
-            <label>Your name</label>
-            <input type="text" id="user-name" />
+            <label for="user-name">Your name</label>
+            <input type="text" id="user-name" name="user-name" />
         </p>
-        <button>Submit</button>
+
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
