@@ -1,7 +1,7 @@
 
 
-let userName: string = "Ceejay";
-let userAge = 20;
+let userName: string = "Nathaniel";
+let userAge = 22;
 
 
 
