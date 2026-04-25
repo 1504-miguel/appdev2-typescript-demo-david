@@ -1,25 +1,19 @@
-// Special Type - null
-let a: null;
+(() => {
 
-a = null
-// a = "Hi"
+    // null type
+    let a: null;
+    a = null;
 
-let b: null | string
+    let b: string | null;
+    b = null;
+    b = "Hi";
 
-b = null
-b = "Hi"
-// b = 10
+    // undefined type
+    let c: undefined;
+    c = undefined;
 
-// Special Type - undefined
-let c: undefined;
+    let d: string | undefined;
+    d = undefined;
+    d = "Hi";
 
-c = undefined
-// c = null
-// c = "Hi"
-
-let d: undefined | string
-
-d = undefined
-d = "Hi"
-// d = null
-// d = 10
+})();
