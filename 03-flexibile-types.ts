@@ -7,4 +7,6 @@ age = true
 age = {}
 age = []
 
-console.log(typeof age)
+let test = {}
+
+console.log(typeof test)
